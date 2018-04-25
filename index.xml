@@ -25,7 +25,22 @@
       <pubDate>Sun, 18 Jan 2015 18:52:17 +0800</pubDate>
       
       <guid>http://kejing.me/publication/libs-2015/</guid>
-      <description></description>
+      <description>
+
+&lt;h4 id=&#34;bibtex&#34;&gt;BibTex&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;@article{yao2015rapidly,
+  title={Rapidly measuring unburned carbon in fly ash using molecular CN by laser-induced breakdown spectroscopy},
+  author={Yao, Shunchun and Shen, Yueliang and Yin, Kejing and Pan, Gang and Lu, Jidong},
+  journal={Energy \&amp;amp; Fuels},
+  volume={29},
+  number={2},
+  pages={1257--1263},
+  year={2015},
+  publisher={ACS Publications}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>
