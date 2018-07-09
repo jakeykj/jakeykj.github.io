@@ -13,12 +13,21 @@
     
     
     <item>
+      <title>Joint Learning of Phenotypes and Diagnosis-Medication Correspondence via Hidden Interaction Tensor Factorization</title>
+      <link>http://kejing.me/publication/hitf-2018/</link>
+      <pubDate>Sun, 01 Jul 2018 18:30:37 +0800</pubDate>
+      
+      <guid>http://kejing.me/publication/hitf-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rapidly measuring unburned carbon in fly ash using molecular CN by laser-induced breakdown spectroscopy</title>
       <link>http://kejing.me/publication/libs-2015/</link>
       <pubDate>Sun, 18 Jan 2015 18:52:17 +0800</pubDate>
       
       <guid>http://kejing.me/publication/libs-2015/</guid>
-      <description> BibTex @article{yao2015rapidly, title={Rapidly measuring unburned carbon in fly ash using molecular CN by laser-induced breakdown spectroscopy}, author={Yao, Shunchun and Shen, Yueliang and Yin, Kejing and Pan, Gang and Lu, Jidong}, journal={Energy \&amp;amp; Fuels}, volume={29}, number={2}, pages={1257--1263}, year={2015}, publisher={ACS Publications} }  </description>
+      <description></description>
     </item>
     
   </channel>
