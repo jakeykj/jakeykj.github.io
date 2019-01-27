@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -1000</lastBuildDate>
     
 	<atom:link href="http://kejing.me/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning Phenotypes and Dynamic Patient Representations via RNN Regularized Collective Non-negative Tensor Factorization</title>
+      <link>http://kejing.me/publication/cntf-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 18:30:37 +0800</pubDate>
+      
+      <guid>http://kejing.me/publication/cntf-2019/</guid>
+      <description> Codes will be released later. </description>
+    </item>
     
     <item>
       <title>Joint Learning of Phenotypes and Diagnosis-Medication Correspondence via Hidden Interaction Tensor Factorization</title>
