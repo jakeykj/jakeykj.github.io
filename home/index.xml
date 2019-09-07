@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="http://kejing.me/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>http://kejing.me/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://kejing.me/home/about/</guid>
       <description>Biography Yin Kejing (Jake) is a Ph.D. candidate at the Department of Computer Science, Hong Kong Baptist University, under supervision of Dr. William K. Cheung. Prior to that, he obtained his Bachelor&amp;rsquo;s degree from School of Electric Power, South China University of Technology.
@@ -25,7 +25,7 @@ He is working on machine learning for high-dimensional healthcare data analytics
     <item>
       <title>Recent Publications</title>
       <link>http://kejing.me/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://kejing.me/home/publications/</guid>
       <description></description>
@@ -34,7 +34,7 @@ He is working on machine learning for high-dimensional healthcare data analytics
     <item>
       <title>Recent Posts</title>
       <link>http://kejing.me/home/blog/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://kejing.me/home/blog/</guid>
       <description></description>
@@ -43,7 +43,7 @@ He is working on machine learning for high-dimensional healthcare data analytics
     <item>
       <title>Teaching Assistant</title>
       <link>http://kejing.me/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://kejing.me/home/teaching/</guid>
       <description> COMP2015 Data Structure and Algorithms.  2016-17 S2, Excellent TA Performance Award  COMP2017 Operating Systems.  2017-18 S2, Excellent TA Performance Award 2016-17 S2, Excellent TA Performance Award 2018-19 S2  COMP4126/7430 Health Informatics.  2017-18 S1, TA Performance Award 2018-19 S1, Excellent TA Performance Award  </description>
@@ -52,7 +52,7 @@ He is working on machine learning for high-dimensional healthcare data analytics
     <item>
       <title>Awards</title>
       <link>http://kejing.me/home/awards/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://kejing.me/home/awards/</guid>
       <description> Best Presentation Award  June, 2018. 21th Postgraduate Research Symposium (PG Day), Department of Computer Science, HKBU. June, 2017. 20th Postgraduate Research Symposium (PG Day), Department of Computer Science, HKBU.  </description>
@@ -61,7 +61,7 @@ He is working on machine learning for high-dimensional healthcare data analytics
     <item>
       <title>Contact</title>
       <link>http://kejing.me/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>http://kejing.me/home/contact/</guid>
       <description></description>
