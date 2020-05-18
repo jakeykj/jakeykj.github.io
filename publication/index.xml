@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Yin Kejing, Ph.D. Candidate</title>
+    <title>Publications on Kejing Yin, Ph.D. Candidate</title>
     <link>http://kejing.me/publication/</link>
-    <description>Recent content in Publications on Yin Kejing, Ph.D. Candidate</description>
+    <description>Recent content in Publications on Kejing Yin, Ph.D. Candidate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://kejing.me/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values</title>
+      <link>http://kejing.me/publication/logpar-2020/</link>
+      <pubDate>Fri, 01 May 2020 18:30:37 +0800</pubDate>
+      
+      <guid>http://kejing.me/publication/logpar-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Medical Concept Embedding with Multiple Ontological Representations</title>
