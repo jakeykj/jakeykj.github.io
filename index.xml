@@ -12,46 +12,73 @@
     
     <item>
       <title>LogPar: Logistic PARAFAC2 Factorization for Temporal Binary Data with Missing Values</title>
-      <link>http://kejing.me/publication/logpar-2020/</link>
+      <link>http://kejing.me/publication/2020-kdd-logpar/</link>
       <pubDate>Fri, 01 May 2020 18:30:37 +0800</pubDate>
       
-      <guid>http://kejing.me/publication/logpar-2020/</guid>
+      <guid>http://kejing.me/publication/2020-kdd-logpar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Context-Aware Time Series Imputation for Multi-Analyte Clinical Data</title>
+      <link>http://kejing.me/publication/2020-jhir-catsi/</link>
+      <pubDate>Wed, 01 Jan 2020 18:30:37 +0800</pubDate>
+      
+      <guid>http://kejing.me/publication/2020-jhir-catsi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Medical Concept Embedding with Multiple Ontological Representations</title>
-      <link>http://kejing.me/publication/mmore-2019/</link>
+      <link>http://kejing.me/publication/2019-ijcai-mmore/</link>
       <pubDate>Thu, 01 Aug 2019 18:30:37 +0800</pubDate>
       
-      <guid>http://kejing.me/publication/mmore-2019/</guid>
+      <guid>http://kejing.me/publication/2019-ijcai-mmore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Context-Aware Imputation for Clinical Time Series</title>
+      <link>http://kejing.me/publication/2019-ichi-catsi-abs/</link>
+      <pubDate>Mon, 10 Jun 2019 18:30:37 +0800</pubDate>
+      
+      <guid>http://kejing.me/publication/2019-ichi-catsi-abs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Phenotypes and Dynamic Patient Representations via RNN Regularized Collective Non-negative Tensor Factorization</title>
-      <link>http://kejing.me/publication/cntf-2019/</link>
+      <link>http://kejing.me/publication/2019-aaai-cntf/</link>
       <pubDate>Sun, 27 Jan 2019 18:30:37 +0800</pubDate>
       
-      <guid>http://kejing.me/publication/cntf-2019/</guid>
+      <guid>http://kejing.me/publication/2019-aaai-cntf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joint Learning of Phenotypes and Diagnosis-Medication Correspondence via Hidden Interaction Tensor Factorization</title>
-      <link>http://kejing.me/publication/hitf-2018/</link>
+      <link>http://kejing.me/publication/2018-ijcai-hitf/</link>
       <pubDate>Sun, 01 Jul 2018 18:30:37 +0800</pubDate>
       
-      <guid>http://kejing.me/publication/hitf-2018/</guid>
+      <guid>http://kejing.me/publication/2018-ijcai-hitf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying laser-induced plasma emission spectra of particles in a gas–solid flow based on the standard deviation of intensity across an emission line</title>
+      <link>http://kejing.me/publication/2018-jaas-libs/</link>
+      <pubDate>Fri, 01 Jun 2018 18:30:37 +0800</pubDate>
+      
+      <guid>http://kejing.me/publication/2018-jaas-libs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rapidly measuring unburned carbon in fly ash using molecular CN by laser-induced breakdown spectroscopy</title>
-      <link>http://kejing.me/publication/libs-2015/</link>
+      <link>http://kejing.me/publication/2015-ef-libs/</link>
       <pubDate>Sun, 18 Jan 2015 18:52:17 +0800</pubDate>
       
-      <guid>http://kejing.me/publication/libs-2015/</guid>
+      <guid>http://kejing.me/publication/2015-ef-libs/</guid>
       <description></description>
     </item>
     

@@ -7,17 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 18 Jan 2015 18:52:17 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 18:30:37 +0800</lastBuildDate>
     
 	<atom:link href="http://kejing.me/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Context-Aware Time Series Imputation for Multi-Analyte Clinical Data</title>
+      <link>http://kejing.me/publication/2020-jhir-catsi/</link>
+      <pubDate>Wed, 01 Jan 2020 18:30:37 +0800</pubDate>
+      
+      <guid>http://kejing.me/publication/2020-jhir-catsi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying laser-induced plasma emission spectra of particles in a gas–solid flow based on the standard deviation of intensity across an emission line</title>
+      <link>http://kejing.me/publication/2018-jaas-libs/</link>
+      <pubDate>Fri, 01 Jun 2018 18:30:37 +0800</pubDate>
+      
+      <guid>http://kejing.me/publication/2018-jaas-libs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rapidly measuring unburned carbon in fly ash using molecular CN by laser-induced breakdown spectroscopy</title>
-      <link>http://kejing.me/publication/libs-2015/</link>
+      <link>http://kejing.me/publication/2015-ef-libs/</link>
       <pubDate>Sun, 18 Jan 2015 18:52:17 +0800</pubDate>
       
-      <guid>http://kejing.me/publication/libs-2015/</guid>
+      <guid>http://kejing.me/publication/2015-ef-libs/</guid>
       <description></description>
     </item>
     
