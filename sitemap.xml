@@ -1,108 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    <url>
-    
-      <loc>http://kejing.me/openings/</loc>
-      <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-    </url>
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    <url>
-    
-      <loc>http://kejing.me/publications/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    <url>
-    
-      <loc>http://kejing.me/</loc>
-      <lastmod>2016-04-20T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-    
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://kejing.me//news/20230825_nsfc/</loc>
+<lastmod>2023-08-25T16:59:00+08:00</lastmod>
+</url>
+<url>
+<loc>https://kejing.me//news/20231001_tkde/</loc>
+<lastmod>2023-10-01T00:13:00+08:00</lastmod>
+</url>
+<url>
+<loc>https://kejing.me//news/20231209_aaai/</loc>
+<lastmod>2023-12-09T12:13:00+08:00</lastmod>
+</url>
+<url>
+<loc>https://kejing.me//news/20240301_hmrf/</loc>
+<lastmod>2024-02-29T12:59:00+08:00</lastmod>
+</url>
+<url>
+<loc>https://kejing.me//</loc>
+</url>
+<url>
+<loc>https://kejing.me//news/</loc>
+</url>
+<url>
+<loc>https://kejing.me//opening/</loc>
+</url>
+<url>
+<loc>https://kejing.me//research/</loc>
+</url>
+<url>
+<loc>https://kejing.me//publications/</loc>
+</url>
+<url>
+<loc>https://kejing.me//services/</loc>
+</url>
+<url>
+<loc>https://kejing.me//teaching/</loc>
+</url>
+<url>
+<loc>https://kejing.me//lighthouse_results/desktop/alshedivat_github_io_al_folio_.html</loc>
+<lastmod>2024-03-01T00:39:49+08:00</lastmod>
+</url>
+<url>
+<loc>https://kejing.me//lighthouse_results/mobile/alshedivat_github_io_al_folio_.html</loc>
+<lastmod>2024-03-01T00:39:49+08:00</lastmod>
+</url>
+<url>
+<loc>https://kejing.me//publications/2018_IJCAI_HITF.pdf</loc>
+<lastmod>2024-03-12T11:29:17+08:00</lastmod>
+</url>
+<url>
+<loc>https://kejing.me//publications/2019_AAAI_CNTF.pdf</loc>
+<lastmod>2024-03-12T11:25:56+08:00</lastmod>
+</url>
+<url>
+<loc>https://kejing.me//publications/2019_ICHI_CATSI_abs.pdf</loc>
+<lastmod>2024-03-12T11:30:47+08:00</lastmod>
+</url>
+<url>
+<loc>https://kejing.me//publications/2019_IJCAI_MMORE.pdf</loc>
+<lastmod>2024-03-12T11:27:05+08:00</lastmod>
+</url>
+<url>
+<loc>https://kejing.me//publications/2020_JHIR_CATSI_AAM.pdf</loc>
+<lastmod>2024-03-12T11:19:45+08:00</lastmod>
+</url>
+<url>
+<loc>https://kejing.me//publications/2020_KDD_LogPar.pdf</loc>
+<lastmod>2024-03-12T11:18:55+08:00</lastmod>
+</url>
 </urlset>
