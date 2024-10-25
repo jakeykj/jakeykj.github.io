@@ -216,17 +216,17 @@
     <div class="col-sm-2 abbr">
       
         
-          <abbr class="badge">IEEE JBHI</abbr>
+          <abbr class="badge">NeurIPS-24</abbr>
         
       
     </div>
   
 
   <!-- Entry bib key -->
-  <div id="huang2024dna" class="col-sm-8">
+  <div id="yao2024ddlcxr" class="col-sm-8">
 
     <!-- Title -->
-<div class="title">DNA-T: Deformable Neighborhood Attention Transformer for Irregular Medical Time Series</div>
+<div class="title">Addressing Asynchronicity in Clinical Multimodal Fusion via Individualized Chest X-ray Generation</div>
 <!-- Author -->
 <div class="author">
   
@@ -236,17 +236,20 @@
 
   
 
-    J. 
-        Huang
+    W. 
+        Yao
 
-    , B. 
-        Yang
+    , C. 
+        Liu
 
     , <em>K. 
-        Yin</em>
+        Yin</em><sup><i class="fa-regular fa-envelope"></i></sup>
+
+    , W. K. 
+        Cheung
 
     , and J. 
-        Xu
+        Qin
 </div>
 
 <!-- Journal/Book title and date -->
@@ -258,7 +261,7 @@
 
 
 <div class="periodical">
-  <em>IEEE Journal of Biomedical and Health Informatics</em>,  2024
+  <em>In Advances in Neural Information Processing Systems</em> ,  2024
 </div>
 
 
@@ -284,14 +287,14 @@
     <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     
     
-    <a href="https://ieeexplore.ieee.org/document/10510586" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Publisher</a>
+    
+    
+        <a href="https://arxiv.org/pdf/2410.17918" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
     
     
     
     
     
-    
-    <a href="https://github.com/Nekumiya-x/DNA-T" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
     
     
     
@@ -302,21 +305,122 @@
   
     <!-- Hidden abstract block -->
     <div class="abstract hidden">
-      <p>The real-world Electronic Health Records (EHRs) present irregularities due to changes in the patient’s health status, resulting in various time intervals between observations and different physiological variables examined at each observation point. There have been recent applications of Transformer-based models in the field of irregular time series. However, the full attention mechanism in Transformer overly focuses on distant information, ignoring the short-term correlations of the condition. Thereby, the model is not able to capture localized changes or short-term fluctuations in patients’ conditions. Therefore, we propose a novel end-to-end Deformable Neighborhood Attention Transformer (DNA-T) for irregular medical time series. The DNA-T captures local features by dynamically adjusting the receptive field of attention and aggregating relevant deformable neighborhoods in irregular time series. Specifically, we design a Deformable Neighborhood Attention (DNA) module that enables the network to attend to relevant neighborhoods by drifting the receiving field of neighborhood attention. The DNA enhances the model’s sensitivity to local information and representation of local features, thereby capturing the correlation of localized changes in patients’ conditions. We conduct extensive experiments to validate the effectiveness of DNA-T, outperforming existing state-of-the-art methods in predicting the mortality risk of patients. Moreover, we visualize an example to validate the effectiveness of the proposed DNA. Our code is available at https://github.com/Nekumiya-x/DNA-T.</p>
+      <p>Integrating multi-modal clinical data, such as electronic health records (EHR) and chest X-ray images (CXR), is particularly beneficial for clinical prediction tasks. However, in a temporal setting, multi-modal data are often inherently asynchronous. EHR can be continuously collected but CXR is generally taken with a much longer interval due to its high cost and radiation dose. When clinical prediction is needed, the last available CXR image might have been outdated, leading to suboptimal predictions. To address this challenge, we propose DDL-CXR, a method that dynamically generates an up-to-date latent representation of the individualized CXR images. Our approach leverages latent diffusion models for patient-specific generation strategically conditioned on a previous CXR image and EHR time series, providing information regarding anatomical structures and disease progressions, respectively. In this way, the interaction across modalities could be better captured by the latent CXR generation process, ultimately improving the prediction performance. Experiments using MIMIC datasets show that the proposed model could effectively address asynchronicity in multimodal fusion and consistently outperform existing methods.</p>
     </div>
   
 
   
     <!-- Hidden bibtex block -->
     <div class="bibtex hidden">
-      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">huang2024dna</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{{DNA-T}: Deformable Neighborhood Attention Transformer for Irregular Medical Time Series}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Huang, Jianxuan and Yang, Baoyao and Yin, Kejing and Xu, Jingwen}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Journal of Biomedical and Health Informatics}</span><span class="p">,</span>
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">yao2024ddlcxr</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yao, Wenfang and Liu, Chen and Yin, Kejing and Cheung, William K. and Qin, Jing}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Advances in Neural Information Processing Systems}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Addressing Asynchronicity in Clinical Multimodal Fusion via Individualized Chest {X-ray} Generation}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/JBHI.2024.3395446}</span>
 <span class="p">}</span></code></pre></figure>
     </div>
+  
+
+  
+
+
+
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">IEEE CAI</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="wu2024an" class="col-sm-8">
+
+    <!-- Title -->
+<div class="title">An End-to-end Learning Approach for Counterfactual Generation and Individual Treatment Effect Estimation</div>
+<!-- Author -->
+<div class="author">
+  
+
+  
+  
+
+  
+
+    F. 
+        Wu
+
+    , <em>K. 
+        Yin</em>
+
+    , and W. K. 
+        Cheung
+</div>
+
+<!-- Journal/Book title and date -->
+
+
+
+
+
+
+
+<div class="periodical">
+  <em>In 2024 IEEE Conference on Artificial Intelligence (CAI)</em> ,  2024
+</div>
+
+
+    
+    
+
+    <!-- Publication Badges -->
+    
+      
+      
+      
+      
+      
+    
+
+    <!-- Links/Buttons -->
+    <div class="links">
+    
+    <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+    <a href="https://ieeexplore.ieee.org/document/10605309" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Publisher</a>
+    
+    
+    
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10605309" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+  
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Estimating the causal effect due to an intervention is important for many applications, such as healthcare. Unobserved counterfactuals make unbiased treatment effect estimation non-trivial. Among existing approaches, counterfactual generation which augments observational data with generated pseudo counterfactuals has been found promising for reducing the bias. These methods typically take a two-stage approach for the counterfactual generation and treatment effect estimation. Therefore, the counterfactual generation could be sub-optimal. To this end, we propose to jointly optimize the auxiliary models for generating the counterfactuals and the outcome estimation models. In particular, we demonstrate the viability by first connecting a counterfactual outcome generator with a reparameterized VAE model, and then learning them in an end-to-end fashion using the EM algorithm. Our evaluation results based on synthetic and semi-synthetic datasets show that a simple causal effect VAE model learned together with the counterfactual outcome generator can outperform a number of SOTA models for treatment effect estimation.</p>
+    </div>
+  
+
   
 
   
@@ -445,6 +549,122 @@
   <span class="na">number</span> <span class="p">=</span> <span class="s">{15}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{16416-16424}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+  
+
+  
+
+
+
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col-sm-2 abbr">
+      
+        
+          <abbr class="badge">IEEE JBHI</abbr>
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="huang2024dna" class="col-sm-8">
+
+    <!-- Title -->
+<div class="title">DNA-T: Deformable Neighborhood Attention Transformer for Irregular Medical Time Series</div>
+<!-- Author -->
+<div class="author">
+  
+
+  
+  
+
+  
+
+    J. 
+        Huang
+
+    , B. 
+        Yang
+
+    , <em>K. 
+        Yin</em>
+
+    , and J. 
+        Xu
+</div>
+
+<!-- Journal/Book title and date -->
+
+
+
+
+
+
+
+<div class="periodical">
+  <em>IEEE Journal of Biomedical and Health Informatics</em>,  2024
+</div>
+
+
+    
+    
+
+    <!-- Publication Badges -->
+    
+      
+      
+      
+      
+      
+    
+
+    <!-- Links/Buttons -->
+    <div class="links">
+    
+    <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    <a href="https://ieeexplore.ieee.org/document/10510586" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Publisher</a>
+    
+    
+    
+    
+    
+    
+    <a href="https://github.com/Nekumiya-x/DNA-T" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+    
+    
+    
+    
+    
+</div>
+
+  
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>The real-world Electronic Health Records (EHRs) present irregularities due to changes in the patient’s health status, resulting in various time intervals between observations and different physiological variables examined at each observation point. There have been recent applications of Transformer-based models in the field of irregular time series. However, the full attention mechanism in Transformer overly focuses on distant information, ignoring the short-term correlations of the condition. Thereby, the model is not able to capture localized changes or short-term fluctuations in patients’ conditions. Therefore, we propose a novel end-to-end Deformable Neighborhood Attention Transformer (DNA-T) for irregular medical time series. The DNA-T captures local features by dynamically adjusting the receptive field of attention and aggregating relevant deformable neighborhoods in irregular time series. Specifically, we design a Deformable Neighborhood Attention (DNA) module that enables the network to attend to relevant neighborhoods by drifting the receiving field of neighborhood attention. The DNA enhances the model’s sensitivity to local information and representation of local features, thereby capturing the correlation of localized changes in patients’ conditions. We conduct extensive experiments to validate the effectiveness of DNA-T, outperforming existing state-of-the-art methods in predicting the mortality risk of patients. Moreover, we visualize an example to validate the effectiveness of the proposed DNA. Our code is available at https://github.com/Nekumiya-x/DNA-T.</p>
+    </div>
+  
+
+  
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">huang2024dna</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{DNA-T}: Deformable Neighborhood Attention Transformer for Irregular Medical Time Series}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Huang, Jianxuan and Yang, Baoyao and Yin, Kejing and Xu, Jingwen}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Journal of Biomedical and Health Informatics}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/JBHI.2024.3395446}</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   
@@ -2186,7 +2406,7 @@
 
       
       
-        Last updated: June 01, 2024.
+        Last updated: October 25, 2024.
       
     </div>
   </footer>
