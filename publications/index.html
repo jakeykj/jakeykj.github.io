@@ -208,15 +208,269 @@
     <!-- _pages/publications.md -->
 <div class="publications">
 
+<h2 class="bibliography">2025</h2>
+<ol class="bibliography">
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">NeurIPS-25</abbr>
+        
+      
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="liu2025dipro" class="col-sm-8">
+
+    <!-- Title -->
+<div class="title">Multimodal Disease Progression Modeling via Spatiotemporal Disentanglement and Multiscale Alignment</div>
+<!-- Author -->
+<div class="author">
+  
+
+  
+  
+
+  
+
+    Chen
+        Liu
+
+    , Wenfang
+        Yao
+
+    , <strong>Kejing
+        Yin</strong><sup><i class="fa-regular fa-envelope"></i></sup>
+
+    , William K.
+        Cheung
+
+    , and Jing
+        Qin
+</div>
+
+<!-- Journal/Book title and date -->
+
+
+
+
+
+
+
+<div class="periodical">
+  <em>In Advances in Neural Information Processing Systems (NeurIPS-25)</em> ,  2025
+</div>
+
+
+    
+    
+      <div class="periodical" style="color:Gray ; font-size: 0.9rem; margin-bottom: 0;">
+        <i class="fa-regular fa-hand-point-right"></i> Spotlight: top 3.55% among 21,575 submissions
+      </div>
+    
+
+    <!-- Publication Badges -->
+    
+      
+      
+      
+      
+      
+    
+
+    <!-- Links/Buttons -->
+    <div class="links">
+    
+    <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+  
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Longitudinal multimodal data, including electronic health records (EHR) and sequential chest X-rays (CXRs), is critical for modeling disease progression, yet remains underutilized due to two key challenges: (1) redundancy in consecutive CXR sequences, where static anatomical regions dominate over clinically-meaningful dynamics, and (2) temporal misalignment between sparse, irregular imaging and continuous EHR data. We introduce DiPro, a novel framework that addresses these challenges through region-aware disentanglement and multi-timescale alignment. First, we disentangle static (anatomy) and dynamic (pathology progression) features in sequential CXRs, prioritizing disease-relevant changes. Second, we hierarchically align these static and dynamic CXR features with asynchronous EHR data via local (pairwise interval-level) and global (full-sequence) synchronization to model coherent progression pathways. Extensive experiments on the MIMIC dataset demonstrate that DiPro could effectively extract temporal clinical dynamics and achieve state-of-the-art performance on both disease progression identification and general ICU prediction tasks.</p>
+    </div>
+  
+
+  
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">liu2025dipro</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Liu, Chen and Yao, Wenfang and Yin, Kejing and Cheung, William K. and Qin, Jing}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Advances in Neural Information Processing Systems (NeurIPS-25)}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Multimodal Disease Progression Modeling via Spatiotemporal Disentanglement and Multiscale Alignment}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+  
+
+  
+
+
+
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">NeurIPS-25</abbr>
+        
+      
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="wang2025curv" class="col-sm-8">
+
+    <!-- Title -->
+<div class="title">CURV: Coherent Uncertainty-Aware Reasoning in Vision-Language Models for X-Ray Report Generation</div>
+<!-- Author -->
+<div class="author">
+  
+
+  
+  
+
+  
+
+    Ziao
+        Wang
+
+    , Sixing
+        Yan
+
+    , <strong>Kejing
+        Yin</strong>
+
+    , Xiaofeng
+        Zhang
+
+    , and William K.
+        Cheung
+</div>
+
+<!-- Journal/Book title and date -->
+
+
+
+
+
+
+
+<div class="periodical">
+  <em>In Advances in Neural Information Processing Systems (NeurIPS-25)</em> ,  2025
+</div>
+
+
+    
+    
+
+    <!-- Publication Badges -->
+    
+      
+      
+      
+      
+      
+    
+
+    <!-- Links/Buttons -->
+    <div class="links">
+    
+    <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+  
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Vision-language models have been explored for radiology report generation with promising results. Yet, uncertainty elaborated in findings and the reasoning process for reaching clinical impressions are seldom explicitly modeled, reducing the clinical accuracy and trustworthiness of the generated reports. We present CURV, a novel framework that alleviates the limitations through integrated awareness of uncertainty and explicit reasoning capabilities. Our approach consists of three key components: (1) an uncertainty modeling mechanism that teaches the model to recognize and express appropriate levels of diagnostic confidence, (2) a structured reasoning framework that generates intermediate explanatory steps connecting visual findings to clinical impressions, and (3) a reasoning coherence reward that ensures logical consistency among findings, reasoning, and impressions. We implement CURV through a three-stage training pipeline that combines uncertainty-aware fine-tuning, reasoning initialization, and reinforcement learning. In particular, we adopt a comprehensive reward function addresses multiple aspects of report quality, incorporating medical term matching, uncertainty expression evaluation, and semantic coherence evaluation. Experimental results demonstrate that CURV generates clinically relevant reports with appropriate uncertainty expressions and transparent reasoning traces, significantly outperforming previous methods. CURV represents a substantial advancement toward interpretable and trustworthy AI-generated radiology reports, with broader implications for the deployment of vision-language models in high-stakes clinical environments where uncertainty awareness and reasoning transparency are essential.</p>
+    </div>
+  
+
+  
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">wang2025curv</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wang, Ziao and Yan, Sixing and Yin, Kejing and Zhang, Xiaofeng and Cheung, William K.}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Advances in Neural Information Processing Systems (NeurIPS-25)}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{CURV: Coherent Uncertainty-Aware Reasoning in Vision-Language Models for X-Ray Report Generation}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+  
+
+  
+
+
+
+  </div>
+</div>
+</li>
+</ol>
 <h2 class="bibliography">2024</h2>
 <ol class="bibliography">
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">NeurIPS-24</abbr>
+        
+      
       
         
-          <abbr class="badge">NeurIPS-24</abbr>
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/neurips24_ddlcxr-480.webp 480w,/assets/img/publication_preview/neurips24_ddlcxr-800.webp 800w,/assets/img/publication_preview/neurips24_ddlcxr-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/neurips24_ddlcxr.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="neurips24_ddlcxr.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
         
       
     </div>
@@ -236,19 +490,19 @@
 
   
 
-    W. 
-        Yao
+    Wenfang
+        Yao*
 
-    , C. 
-        Liu
+    , Chen
+        Liu*
 
-    , <em>K. 
-        Yin</em><sup><i class="fa-regular fa-envelope"></i></sup>
+    , <strong>Kejing
+        Yin</strong><sup><i class="fa-regular fa-envelope"></i></sup>
 
-    , W. K. 
+    , William K.
         Cheung
 
-    , and J. 
+    , and Jing
         Qin
 </div>
 
@@ -261,7 +515,7 @@
 
 
 <div class="periodical">
-  <em>In Advances in Neural Information Processing Systems</em> ,  2024
+  <em>In Advances in Neural Information Processing Systems (NeurIPS-24)</em> ,  2024
 </div>
 
 
@@ -314,7 +568,7 @@
     <div class="bibtex hidden">
       <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">yao2024ddlcxr</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Yao, Wenfang and Liu, Chen and Yin, Kejing and Cheung, William K. and Qin, Jing}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Advances in Neural Information Processing Systems}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Advances in Neural Information Processing Systems (NeurIPS-24)}</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Addressing Asynchronicity in Clinical Multimodal Fusion via Individualized Chest {X-ray} Generation}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
@@ -331,11 +585,10 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">IEEE CAI</abbr>
+        
       
-        
-          <abbr class="badge">IEEE CAI</abbr>
-        
       
     </div>
   
@@ -354,13 +607,13 @@
 
   
 
-    F. 
+    Feilong
         Wu
 
-    , <em>K. 
-        Yin</em>
+    , <strong>Kejing
+        Yin</strong>
 
-    , and W. K. 
+    , and William K.
         Cheung
 </div>
 
@@ -433,10 +686,31 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">AAAI-24</abbr>
+        
+      
       
         
-          <abbr class="badge">AAAI-24</abbr>
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/aaai24_drfuse-480.webp 480w,/assets/img/publication_preview/aaai24_drfuse-800.webp 800w,/assets/img/publication_preview/aaai24_drfuse-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/aaai24_drfuse.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="aaai24_drfuse.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
         
       
     </div>
@@ -456,19 +730,19 @@
 
   
 
-    W. 
+    Wenfang
         Yao*
 
-    , <em>K. 
-        Yin</em>*
+    , <strong>Kejing
+        Yin</strong>*
 
-    , W. K. 
+    , William K.
         Cheung
 
-    , J. 
+    , Jia
         Liu
 
-    , and J. 
+    , and Jing
         Qin
 </div>
 
@@ -548,7 +822,7 @@
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{38}</span><span class="p">,</span>
   <span class="na">number</span> <span class="p">=</span> <span class="s">{15}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{16416-16424}</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{16416-16424}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   
@@ -563,10 +837,268 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">Nat. Comm.</abbr>
+        
+      
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="zhang2024exploring" class="col-sm-8">
+
+    <!-- Title -->
+<div class="title">Exploring high-quality microbial genomes by assembling short-reads with long-range connectivity</div>
+<!-- Author -->
+<div class="author">
+  
+
+  
+  
+
+  
+
+    Zhenmiao
+        Zhang
+
+    , Jin
+        Xiao
+
+    , Hongbo
+        Wang
+
+    , Chao
+        Yang
+
+    , Yufen
+        Huang
+
+    , Zhen
+        Yue
+
+    , Yang
+        Chen
+
+    , Lijuan
+        Han
+
+    , <strong>Kejing
+        Yin</strong>
+
+    , Aiping
+        Lyu
+
+    , Xiaodong
+        Fang
+
+    , and Lu
+        Zhang
+</div>
+
+<!-- Journal/Book title and date -->
+
+
+
+
+
+
+
+<div class="periodical">
+  <em>Nature Communications</em>,  2024
+</div>
+
+
+    
+    
+
+    <!-- Publication Badges -->
+    
+      
+      
+      
+      
+      
+    
+
+    <!-- Links/Buttons -->
+    <div class="links">
+    
+    <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+    <a href="https://www.nature.com/articles/s41467-024-49060-z" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Publisher</a>
+    
+    
+    
+        <a href="https://www.nature.com/articles/s41467-024-49060-z.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+  
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Although long-read sequencing enables the generation of complete genomes for unculturable microbes, its high cost limits the widespread adoption of long-read sequencing in large-scale metagenomic studies. An alternative method is to assemble short-reads with long-range connectivity, which can be a cost-effective way to generate high-quality microbial genomes. Here, we develop Pangaea, a bioinformatic approach designed to enhance metagenome assembly using short-reads with long-range connectivity. Pangaea leverages connectivity derived from physical barcodes of linked-reads or virtual barcodes by aligning short-reads to long-reads. Pangaea utilizes a deep learning-based read binning algorithm to assemble co-barcoded reads exhibiting similar sequence contexts and abundances, thereby improving the assembly of high- and medium-abundance microbial genomes. Pangaea also leverages a multi-thresholding algorithm strategy to refine assembly for low-abundance microbes. We benchmark Pangaea on linked-reads and a combination of short- and long-reads from simulation data, mock communities and human gut metagenomes. Pangaea achieves significantly higher contig continuity as well as more near-complete metagenome-assembled genomes (NCMAGs) than the existing assemblers. Pangaea also generates three complete and circular NCMAGs on the human gut microbiomes.</p>
+    </div>
+  
+
+  
+
+  
+
+
+
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">GigaScience</abbr>
+        
+      
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="yang2024lrtk" class="col-sm-8">
+
+    <!-- Title -->
+<div class="title">LRTK: a platform agnostic toolkit for linked-read analysis of both human genome and metagenome</div>
+<!-- Author -->
+<div class="author">
+  
+
+  
+  
+
+  
+
+    Chao
+        Yang
+
+    , Zhenmiao
+        Zhang
+
+    , Yufen
+        Huang
+
+    , Xuefeng
+        Xie
+
+    , Herui
+        Liao
+
+    , Jin
+        Xiao
+
+    , Werner Pieter
+        Veldsman
+
+    , <strong>Kejing
+        Yin</strong>
+
+    , Xiaodong
+        Fang
+
+    , and Lu
+        Zhang
+</div>
+
+<!-- Journal/Book title and date -->
+
+
+
+
+
+
+
+<div class="periodical">
+  <em>GigaScience</em>,  2024
+</div>
+
+
+    
+    
+
+    <!-- Publication Badges -->
+    
+      
+      
+      
+      
+      
+    
+
+    <!-- Links/Buttons -->
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+  
+
+  
+
+  
+
+
+
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">IEEE JBHI</abbr>
+        
+      
       
         
-          <abbr class="badge">IEEE JBHI</abbr>
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/jbhi24_dnat-480.webp 480w,/assets/img/publication_preview/jbhi24_dnat-800.webp 800w,/assets/img/publication_preview/jbhi24_dnat-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/jbhi24_dnat.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="jbhi24_dnat.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
         
       
     </div>
@@ -586,16 +1118,16 @@
 
   
 
-    J. 
+    Jianxuan
         Huang
 
-    , B. 
+    , Baoyao
         Yang
 
-    , <em>K. 
-        Yin</em>
+    , <strong>Kejing
+        Yin</strong>
 
-    , and J. 
+    , and Jingwen
         Xu
 </div>
 
@@ -664,7 +1196,149 @@
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Huang, Jianxuan and Yang, Baoyao and Yin, Kejing and Xu, Jingwen}</span><span class="p">,</span>
   <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Journal of Biomedical and Health Informatics}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/JBHI.2024.3395446}</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/JBHI.2024.3395446}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+  
+
+  
+
+
+
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">IEEE TKDE</abbr>
+        
+      
+      
+        
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/tkde24_patnet-480.webp 480w,/assets/img/publication_preview/tkde24_patnet-800.webp 800w,/assets/img/publication_preview/tkde24_patnet-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/tkde24_patnet.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="tkde24_patnet.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
+    </div>
+  
+
+  <!-- Entry bib key -->
+  <div id="yin2024patnet" class="col-sm-8">
+
+    <!-- Title -->
+<div class="title">PATNet: Propensity-Adjusted Temporal Network for Joint Imputation and Prediction Using Binary EHRs With Observation Bias</div>
+<!-- Author -->
+<div class="author">
+  
+
+  
+  
+
+  
+
+    <strong>Kejing
+        Yin</strong><sup><i class="fa-regular fa-envelope"></i></sup>
+
+    , Dong
+        Qian
+
+    , and William K
+        Cheung
+</div>
+
+<!-- Journal/Book title and date -->
+
+
+
+
+
+
+
+<div class="periodical">
+  <em>IEEE Transactions on Knowledge and Data Engineering</em>,  2024
+</div>
+
+
+    
+    
+
+    <!-- Publication Badges -->
+    
+      
+      
+      
+      
+      
+        <div class="badges">
+          
+          
+          
+        </div>
+      
+    
+
+    <!-- Links/Buttons -->
+    <div class="links">
+    
+    <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    
+    
+    <a href="https://ieeexplore.ieee.org/document/10285044" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Publisher</a>
+    
+    
+    
+        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10285044" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+  
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Predictive analysis of electronic health records (EHR) is a fundamental task that could provide actionable insights to help clinicians improve the efficiency and quality of care. EHR are commonly recorded in binary format and contain inevitable missing data. The nature of missingness may vary by patients, clinical features, and time, which incurs observation bias. It is essential to account for the binary missingness and observation bias or the predictive performance could be substantially compromised. In this paper, we develop a propensity-adjusted temporal network (PATNet) to conduct data imputation and predictive analysis simultaneously. PATNet contains three subnetworks: 1) an imputation subnetwork that generates the initial imputation based on historical observations, 2) a propensity subnetwork that infers the patient-, feature-, and time-dependent propensity scores, and 3) a prediction subnetwork that produces the missing-informative prediction using the propensity-adjusted imputations and the missing probabilities. To allow the propensity scores to be inferred from data, we use the expectation-maximization (EM) algorithm to learn the imputation and propensity subnetworks and incorporate a low-rank constraint via PARAFAC2 approximation. Extensive evaluation using the MIMIC-III and eICU datasets demonstrates that PATNet outperforms the state-of-the-art methods in terms of binary data imputation, disease progression modeling, and mortality prediction tasks.</p>
+    </div>
+  
+
+  
+    <!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">yin2024patnet</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{PATNet: Propensity-Adjusted Temporal Network for Joint Imputation and Prediction Using Binary EHRs With Observation Bias}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yin, Kejing and Qian, Dong and Cheung, William K}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Knowledge and Data Engineering}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   
@@ -678,14 +1352,34 @@
 </li>
 </ol>
 <h2 class="bibliography">2023</h2>
-<ol class="bibliography">
-<li>
+<ol class="bibliography"><li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">ACM TIST</abbr>
+        
+      
       
         
-          <abbr class="badge">ACM TIST</abbr>
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/tist23_ontologies-480.webp 480w,/assets/img/publication_preview/tist23_ontologies-800.webp 800w,/assets/img/publication_preview/tist23_ontologies-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/tist23_ontologies.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="tist23_ontologies.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
         
       
     </div>
@@ -705,19 +1399,19 @@
 
   
 
-    C. W. 
+    Chin Wang
         Cheong
 
-    , <em>K. 
-        Yin</em>
+    , <strong>Kejing
+        Yin</strong>
 
-    , W. K. 
+    , William K
         Cheung
 
-    , B. C. 
+    , Benjamin CM
         Fung
 
-    , and J. 
+    , and Jonathan
         Poon
 </div>
 
@@ -793,7 +1487,7 @@
   <span class="na">number</span> <span class="p">=</span> <span class="s">{6}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{1--20}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{ACM New York, NY}</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{ACM New York, NY}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   
@@ -804,137 +1498,36 @@
 
   </div>
 </div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col-sm-2 abbr">
-      
-        
-          <abbr class="badge">IEEE TKDE</abbr>
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="yin2023patnet" class="col-sm-8">
-
-    <!-- Title -->
-<div class="title">PATNet: Propensity-Adjusted Temporal Network for Joint Imputation and Prediction Using Binary EHRs With Observation Bias</div>
-<!-- Author -->
-<div class="author">
-  
-
-  
-  
-
-  
-
-    <em>K. 
-        Yin</em><sup><i class="fa-regular fa-envelope"></i></sup>
-
-    , D. 
-        Qian
-
-    , and W. K. 
-        Cheung
-</div>
-
-<!-- Journal/Book title and date -->
-
-
-
-
-
-
-
-<div class="periodical">
-  <em>IEEE Transactions on Knowledge and Data Engineering</em>,  2023
-</div>
-
-
-    
-    
-
-    <!-- Publication Badges -->
-    
-      
-      
-      
-      
-      
-        <div class="badges">
-          
-          
-          
-        </div>
-      
-    
-
-    <!-- Links/Buttons -->
-    <div class="links">
-    
-    <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    
-    
-    
-    <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    
-    
-    <a href="https://ieeexplore.ieee.org/document/10285044" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Publisher</a>
-    
-    
-    
-        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10285044" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-</div>
-
-  
-    <!-- Hidden abstract block -->
-    <div class="abstract hidden">
-      <p>Predictive analysis of electronic health records (EHR) is a fundamental task that could provide actionable insights to help clinicians improve the efficiency and quality of care. EHR are commonly recorded in binary format and contain inevitable missing data. The nature of missingness may vary by patients, clinical features, and time, which incurs observation bias. It is essential to account for the binary missingness and observation bias or the predictive performance could be substantially compromised. In this paper, we develop a propensity-adjusted temporal network (PATNet) to conduct data imputation and predictive analysis simultaneously. PATNet contains three subnetworks: 1) an imputation subnetwork that generates the initial imputation based on historical observations, 2) a propensity subnetwork that infers the patient-, feature-, and time-dependent propensity scores, and 3) a prediction subnetwork that produces the missing-informative prediction using the propensity-adjusted imputations and the missing probabilities. To allow the propensity scores to be inferred from data, we use the expectation-maximization (EM) algorithm to learn the imputation and propensity subnetworks and incorporate a low-rank constraint via PARAFAC2 approximation. Extensive evaluation using the MIMIC-III and eICU datasets demonstrates that PATNet outperforms the state-of-the-art methods in terms of binary data imputation, disease progression modeling, and mortality prediction tasks.</p>
-    </div>
-  
-
-  
-    <!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">yin2023patnet</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{PATNet: Propensity-Adjusted Temporal Network for Joint Imputation and Prediction Using Binary EHRs With Observation Bias}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Yin, Kejing and Qian, Dong and Cheung, William K}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE Transactions on Knowledge and Data Engineering}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE}</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-  
-
-  
-
-
-
-  </div>
-</div>
-</li>
-</ol>
+</li></ol>
 <h2 class="bibliography">2022</h2>
 <ol class="bibliography"><li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">IEEE TKDE</abbr>
+        
+      
       
         
-          <abbr class="badge">IEEE TKDE</abbr>
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/tkde22_chitf-480.webp 480w,/assets/img/publication_preview/tkde22_chitf-800.webp 800w,/assets/img/publication_preview/tkde22_chitf-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/tkde22_chitf.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="tkde22_chitf.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
         
       
     </div>
@@ -954,16 +1547,16 @@
 
   
 
-    <em>K. 
-        Yin</em><sup><i class="fa-regular fa-envelope"></i></sup>
+    <strong>Kejing
+        Yin</strong><sup><i class="fa-regular fa-envelope"></i></sup>
 
-    , W. K. 
+    , William K
         Cheung
 
-    , B. C. 
+    , Benjamin CM
         Fung
 
-    , and J. 
+    , and Jonathan
         Poon
 </div>
 
@@ -1045,7 +1638,7 @@
   <span class="na">number</span> <span class="p">=</span> <span class="s">{09}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{4328--4341}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE Computer Society}</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE Computer Society}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   
@@ -1062,10 +1655,31 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">AAAI-21</abbr>
+        
+      
       
         
-          <abbr class="badge">AAAI-21</abbr>
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/aaai21_swift-480.webp 480w,/assets/img/publication_preview/aaai21_swift-800.webp 800w,/assets/img/publication_preview/aaai21_swift-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/aaai21_swift.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="aaai21_swift.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
         
       
     </div>
@@ -1085,25 +1699,25 @@
 
   
 
-    A. 
+    Ardavan
         Afshar
 
-    , <em>K. 
-        Yin</em>
+    , <strong>Kejing
+        Yin</strong>
 
-    , S. 
+    , Sherry
         Yan
 
-    , C. 
+    , Cheng
         Qian
 
-    , J. 
+    , Joyce
         Ho
 
-    , H. 
+    , Haesun
         Park
 
-    , and J. 
+    , and Jimeng
         Sun
 </div>
 
@@ -1188,7 +1802,7 @@
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{35}</span><span class="p">,</span>
   <span class="na">number</span> <span class="p">=</span> <span class="s">{8}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{6548--6556}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   
@@ -1203,10 +1817,31 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">SDM-21</abbr>
+        
+      
       
         
-          <abbr class="badge">SDM-21</abbr>
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/sdm21_tedpar-480.webp 480w,/assets/img/publication_preview/sdm21_tedpar-800.webp 800w,/assets/img/publication_preview/sdm21_tedpar-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/sdm21_tedpar.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="sdm21_tedpar.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
         
       
     </div>
@@ -1226,16 +1861,16 @@
 
   
 
-    <em>K. 
-        Yin</em>
+    <strong>Kejing
+        Yin</strong>
 
-    , W. K. 
+    , William K
         Cheung
 
-    , B. C. 
+    , Benjamin CM
         Fung
 
-    , and J. 
+    , and Jonathan
         Poon
 </div>
 
@@ -1317,7 +1952,7 @@
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 2021 SIAM International Conference on Data Mining (SDM)}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{594--602}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2021}</span><span class="p">,</span>
-  <span class="na">organization</span> <span class="p">=</span> <span class="s">{Society for Industrial and Applied Mathematics}</span>
+  <span class="na">organization</span> <span class="p">=</span> <span class="s">{Society for Industrial and Applied Mathematics}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   
@@ -1335,10 +1970,31 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">KDD-20</abbr>
+        
+      
       
         
-          <abbr class="badge">KDD-20</abbr>
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/kdd20_logpar-480.webp 480w,/assets/img/publication_preview/kdd20_logpar-800.webp 800w,/assets/img/publication_preview/kdd20_logpar-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/kdd20_logpar.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="kdd20_logpar.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
         
       
     </div>
@@ -1358,22 +2014,22 @@
 
   
 
-    <em>K. 
-        Yin</em>
+    <strong>Kejing
+        Yin</strong>
 
-    , A. 
+    , Ardavan
         Afshar
 
-    , J. C. 
+    , Joyce C
         Ho
 
-    , W. K. 
+    , William K
         Cheung
 
-    , C. 
+    , Chao
         Zhang
 
-    , and J. 
+    , and Jimeng
         Sun
 </div>
 
@@ -1456,7 +2112,7 @@
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Yin, Kejing and Afshar, Ardavan and Ho, Joyce C and Cheung, William K and Zhang, Chao and Sun, Jimeng}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \&amp; Data Mining}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{1625--1635}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   
@@ -1471,10 +2127,31 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">JHIR</abbr>
+        
+      
       
         
-          <abbr class="badge">JHIR</abbr>
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/jhir20_catsi-480.webp 480w,/assets/img/publication_preview/jhir20_catsi-800.webp 800w,/assets/img/publication_preview/jhir20_catsi-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/jhir20_catsi.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="jhir20_catsi.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
         
       
     </div>
@@ -1494,13 +2171,13 @@
 
   
 
-    <em>K. 
-        Yin</em>
+    <strong>Kejing
+        Yin</strong>
 
-    , L. 
+    , Liaoliao
         Feng
 
-    , and W. K. 
+    , and William K
         Cheung
 </div>
 
@@ -1587,7 +2264,7 @@
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{4}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{411--426}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2020}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer International Publishing}</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Springer International Publishing}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   
@@ -1605,10 +2282,31 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">AAAI-19</abbr>
+        
+      
       
         
-          <abbr class="badge">AAAI-19</abbr>
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/aaai19_cntf-480.webp 480w,/assets/img/publication_preview/aaai19_cntf-800.webp 800w,/assets/img/publication_preview/aaai19_cntf-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/aaai19_cntf.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="aaai19_cntf.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
         
       
     </div>
@@ -1628,19 +2326,19 @@
 
   
 
-    <em>K. 
-        Yin</em>
+    <strong>Kejing
+        Yin</strong>
 
-    , D. 
+    , Dong
         Qian
 
-    , W. K. 
+    , William K
         Cheung
 
-    , B. C. 
+    , Benjamin CM
         Fung
 
-    , and J. 
+    , and Jonathan
         Poon
 </div>
 
@@ -1725,7 +2423,7 @@
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{33}</span><span class="p">,</span>
   <span class="na">number</span> <span class="p">=</span> <span class="s">{01}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{1246--1253}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   
@@ -1740,10 +2438,31 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">IJCAI-19</abbr>
+        
+      
       
         
-          <abbr class="badge">IJCAI-19</abbr>
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/ijcai19_mmore-480.webp 480w,/assets/img/publication_preview/ijcai19_mmore-800.webp 800w,/assets/img/publication_preview/ijcai19_mmore-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/ijcai19_mmore.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="ijcai19_mmore.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
         
       
     </div>
@@ -1763,22 +2482,22 @@
 
   
 
-    L. 
+    Lihong
         Song
 
-    , C. W. 
+    , Chin Wang
         Cheong
 
-    , <em>K. 
-        Yin</em>
+    , <strong>Kejing
+        Yin</strong>
 
-    , W. K. 
+    , William K
         Cheung
 
-    , B. C. M. 
+    , Benjamin C M
         Fung
 
-    , and J. 
+    , and Jonathan
         Poon
 </div>
 
@@ -1863,7 +2582,7 @@
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Proceedings of the 28th International Joint Conference on Artificial Intelligence}</span><span class="p">,</span>
   <span class="na">volume</span> <span class="p">=</span> <span class="s">{19}</span><span class="p">,</span>
   <span class="na">pages</span> <span class="p">=</span> <span class="s">{4613--4619}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   
@@ -1878,11 +2597,10 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">ICHI-19</abbr>
+        
       
-        
-          <abbr class="badge">ICHI-19</abbr>
-        
       
     </div>
   
@@ -1901,10 +2619,10 @@
 
   
 
-    <em>K. 
-        Yin</em>
+    <strong>Kejing
+        Yin</strong>
 
-    , and W. K. 
+    , and William K
         Cheung
 </div>
 
@@ -1999,11 +2717,10 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">IJCAI-18</abbr>
+        
       
-        
-          <abbr class="badge">IJCAI-18</abbr>
-        
       
     </div>
   
@@ -2022,19 +2739,19 @@
 
   
 
-    <em>K. 
-        Yin</em>
+    <strong>Kejing
+        Yin</strong>
 
-    , W. K. 
+    , William K
         Cheung
 
-    , Y. 
+    , Yang
         Liu
 
-    , B. C. M. 
+    , Benjamin C M
         Fung
 
-    , and J. 
+    , and Jonathan
         Poon
 </div>
 
@@ -2135,11 +2852,10 @@
 <li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">JAAS</abbr>
+        
       
-        
-          <abbr class="badge">JAAS</abbr>
-        
       
     </div>
   
@@ -2158,25 +2874,25 @@
 
   
 
-    S. 
+    Shunchun
         Yao
 
-    , L. 
+    , Lifeng
         Zhang
 
-    , <em>K. 
-        Yin</em>
+    , <strong>Kejing
+        Yin</strong>
 
-    , K. 
+    , Kaijie
         Bai
 
-    , J. 
+    , Jialong
         Xu
 
-    , Z. 
+    , Zhimin
         Lu
 
-    , and J. 
+    , and Jidong
         Lu
 </div>
 
@@ -2261,11 +2977,10 @@
 <ol class="bibliography"><li>
 <div class="row">
   
-    <div class="col-sm-2 abbr">
+    <div class="col col-sm-2 abbr">
+          <abbr class="badge rounded w-100">E&amp;F</abbr>
+        
       
-        
-          <abbr class="badge">E&amp;F</abbr>
-        
       
     </div>
   
@@ -2284,19 +2999,19 @@
 
   
 
-    S. 
+    Shunchun
         Yao
 
-    , Y. 
+    , Yueliang
         Shen
 
-    , <em>K. 
-        Yin</em>
+    , <strong>Kejing
+        Yin</strong>
 
-    , G. 
+    , Gang
         Pan
 
-    , and J. 
+    , and Jidong
         Lu
 </div>
 
@@ -2399,14 +3114,14 @@
     
   <footer class="sticky-bottom mt-5" role="contentinfo">
     <div class="container">
-      © Copyright 2024
+      © Copyright 2025
       Kejing
       
       Yin. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
 
       
       
-        Last updated: October 25, 2024.
+        Last updated: October 01, 2025.
       
     </div>
   </footer>
