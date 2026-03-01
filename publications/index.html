@@ -218,6 +218,28 @@
         
       
       
+        
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/iclr26_masam-480.webp 480w,/assets/img/publication_preview/iclr26_masam-800.webp 800w,/assets/img/publication_preview/iclr26_masam-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/iclr26_masam.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="iclr26_masam.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
     </div>
   
 
@@ -279,6 +301,8 @@
     <!-- Links/Buttons -->
     <div class="links">
     
+    <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
     
     
     <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
@@ -286,8 +310,14 @@
     
     
     
+        <a href="https://openreview.net/pdf?id=AUKeDukcUi" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
     
     
+    
+    
+    
+    
+    <a href="https://github.com/Orange2107/MASAM-Multimodal-Adaptive-SAM" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
     
     
     
@@ -295,6 +325,11 @@
     
 </div>
 
+  
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Multimodal learning requires integrating heterogeneous modalities, such as structured records, visual imagery, and temporal signals. It has been revealed that this heterogeneity causes modality encoders to converge at different rates, making the multimodal learning imbalanced. We empirically observe that such an imbalance is related to the sharpness of the solution. Modality encoders that converge faster could be dragged into sharp regions due to inter-modal interference, degrading the generalization capability of unimodal features learned. Sharpness-Aware Minimization is effective in improving generalization via finding solutions in flat regions. However, its application in multimodal scenarios is challenging: 1) SAM overemphasizes the dominant modality, inducing misaligned perturbations in weaker modalities, and 2) the perturbation gradient calculation is affected by interference from other modalities. To address these issues, we propose Multimodal Adaptive Sharpness-Aware Minimization (MASAM), which optimizes different modalities based on their dominance. We design an Adaptive Perturbation Score (APS) using convergence speed and gradient alignment to identify dominant modalities for SAM application. Our Modality-Decoupled Perturbation Scaling (MDPS) then reduces inter-modal interference during optimization, better aligning each modality with shared information. Extensive empirical evaluations on five multimodal datasets and six downstream tasks demonstrate that MASAM consistently attains flatter solutions, achieves balanced multimodal learning, and subsequently surpasses state-of-the-art methods across diverse datasets and tasks. Code is available at https://github.com/Orange2107/MASAM-Multimodal-Adaptive-SAM.</p>
+    </div>
   
 
   
@@ -324,6 +359,28 @@
         
       
       
+        
+          
+          
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/iclr26_radscr-480.webp 480w,/assets/img/publication_preview/iclr26_radscr-800.webp 800w,/assets/img/publication_preview/iclr26_radscr-1400.webp 1400w," sizes="200px" type="image/webp"></source>
+    
+    <img src="/assets/img/publication_preview/iclr26_radscr.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="iclr26_radscr.png" data-zoomable="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+        
+      
     </div>
   
 
@@ -348,7 +405,7 @@
         Wang, 
 
     <strong>Kejing
-        Yin</strong>, 
+        Yin</strong><sup><i class="fa-regular fa-envelope"></i></sup>, 
 
     William K.
         Cheung, 
@@ -388,10 +445,16 @@
     <!-- Links/Buttons -->
     <div class="links">
     
+    <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
     
     
     <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     
+    
+    
+    
+        <a href="https://openreview.net/pdf?id=6sOSwgCmpH" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
     
     
     
@@ -404,6 +467,11 @@
     
 </div>
 
+  
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Automatic radiology reporting assists radiologists in diagnosing abnormalities in radiology images, where grounding the automatic diagnosis with abnormality locations is important for the report interpretability. However, existing supervised-learning methods could lead to learning the superficial statistical correlations between images and reports, lacking multi-faceted reasoning to critique the relevant regions on which radiologists would focus. Recently, self-critical reasoning has been investigated in test-time scaling approaches to alleviate hallucinations of LLMs with increased time complexity. In this work, we focus on chest X-ray report generation with particular focus on clinical accuracy, where self-critical reasoning is alternatively introduced into the model architecture and their training objective, preferred by the real-time automatic reporting system. In particular, three types of self-critical reasoning are proposed to critique the hypotheses of grounded abnormalities compared to i) alternative abnormalities, ii) alternative patient’s X-ray image, and iii) potential false negative abnormalities. To realize this, we propose a novel Radiology Self-Critiquing Reporting (RadSCR) framework, which constructs the abnormality proposals for each localized abnormality region and verify them by the proposed self-critiquing mechanisms accordingly. The critiqued results of the abnormality proposals are then integrated to generate the completed report with interpretable diagnostic process. Our experiments show the state-of-the-art performance achieved by RadSCR in the grounded report generation and diagnosis critiquing, demonstrating its effectiveness in generating the clinically accurate report.</p>
+    </div>
   
 
   
@@ -3404,7 +3472,7 @@
 
       
       
-        Last updated: February 02, 2026.
+        Last updated: March 01, 2026.
       
     </div>
   </footer>
